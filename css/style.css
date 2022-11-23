@@ -49,6 +49,7 @@ header {
 }
 .nav-logo {
   font-size: 1.5rem;
+  font-weight: 700;
   text-decoration: none;
   color: #fff;
 }
@@ -127,13 +128,13 @@ p {
   flex-wrap: wrap;
 }
 .sect-3-content {
-  background-image: url(/images/pexels-pixabay-414090.jpg);
+  background-image: url(/images/image-graphic-design.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .sect-3-img {
-  background-image: url(/images/pexels-pixabay-59992.jpg);
+  background-image: url(/images/image-photography.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
