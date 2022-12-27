@@ -40,9 +40,6 @@ header {
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
-.nav-menu li:hover {
-  background: var(--clr-darkblue);
-}
 .nav-menu li a {
   text-decoration: none;
   color: #fff;
@@ -311,16 +308,36 @@ footer {
     right: -100%;
     top: 60px;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
+    height: 40%;
     text-align: center;
     transition: 0.3s;
-    background: var(--clr-moderatecyan);
+    justify-content: center;
+    background: #fff;
+    font-size: 1.5rem;
+    border-radius: 5px 0px 5px 5px;
+    
   }
-  .nav-item{
-    margin: 15px 0;
+  /*.nav-menu::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    bottom: 100%;
+    left: 95.4%;
+  }
+  */
+  .nav-menu li a {
+    text-decoration: none;
+    color: var(--clr-darkblue);
+    padding-right: 2rem;
   }
   .nav-menu.active {
-    right: 0;
+    right: 2rem;
   }
 }
 
